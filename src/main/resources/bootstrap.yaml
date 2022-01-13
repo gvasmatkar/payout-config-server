@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gvasmatkar/payout-config
+          clone-on-start: true
+          username: grv
+          password: root
+
+  profiles:
+    active: localhost
+
+

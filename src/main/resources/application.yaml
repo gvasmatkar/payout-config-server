@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payout-config-server
+  security:
+    user:
+      name: payout_config
+      password: s3cret
+server:
+  port: 8081
